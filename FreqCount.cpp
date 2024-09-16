@@ -116,6 +116,7 @@ void FreqCountClass::begin(uint32_t usec)
   counter_init();
   timer_init(usec);
   //counter_start();
+  count_prev = 0;
 
 }
 
